@@ -1,0 +1,14 @@
+_id: 63d7b25f285ba1002bcbd1fd
+name: testfunctionlol
+language: javascript
+timeout: 12
+triggers:
+  default:
+    type: http
+    active: true
+    options:
+      method: Get
+      path: /test
+      preflight: true
+env: {}
+memoryLimit: 100
